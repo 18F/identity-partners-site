@@ -5,6 +5,57 @@ a, .usa-alert__text a:visited, .usa-alert__text a {
   color: #0071bb;
 }
 
+.usa-prose p {
+  max-width: none;
+}
+
+.guide-row {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.guide-item {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  flex-direction: column;
+  height: 100px;
+  min-width: 220px;
+  max-width: 250px;
+  margin: 8px;
+  padding: 10px;
+  border-radius: .25rem;
+  border: 2px solid #0071bb;
+  background-color: #fff;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
 .usa-hero__heading {
   font-size: 2em;
+}
+
+.usa-hero {
+  @media (max-width: 1024px) {
+    background-position: 95% 50%;
+  }
+
+  @media (min-width: 640px) {
+    background-image: url(../img/illos/partners-hexahedron.svg);
+  }
+
+  background-position: calc(50% + 300px) 45%;
+  background-size: 420px;
+  background-repeat: no-repeat;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+
+  .usa-hero__callout {
+    margin-left: 0;
+    width: 55%;
+    @media (max-width: 640px) {
+      width: 100%;
+    }
+  }
 }

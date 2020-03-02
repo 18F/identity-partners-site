@@ -2,8 +2,27 @@
 layout: main
 ---
 
-<main id="main-content" class="usa-prose minh-mobile-lg">
-  <section class="grid-container">
-    {{ content }}
-  </section>
-</main>
+<div class="bg-primary-darker padding-y-4">
+  <div class="grid-container usa-prose text-white">
+    <div class="usa-display">{{ page.title }}</div>
+    {% if page.description %}
+    <p class="usa-intro" style="margin-top: 0">{{ page.description }}</p>
+    {% endif %}
+  </div>
+</div>
+
+<section class="usa-section">
+  <div class="grid-container">
+    <div class="grid-row grid-gap flex-align-start">
+      {% assign sidenav = site.data.navigation[page.sidenav] | default: page.sidenav %}
+      {% if sidenav %}
+        <div class="usa-layout-docs__sidenav desktop:grid-col-3">
+          {% include sidenav.html links=sidenav %}
+        </div>
+      {% endif %}
+      <div class="usa-prose {% if sidenav %}usa-layout-docs__main desktop:grid-col-9{% endif %}">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</section>

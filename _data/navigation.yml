@@ -1,0 +1,27 @@
+# This is the configuration for the sidenav navigation, adopting the syntax used
+# in uswds-jekyll.
+#
+# Named lists are referenced in the Jekyll front matter of a page using the
+# `sidenav` variable.
+# An external `href` should be indicated with `external: true`.
+
+why-partner:
+  - text: Let's Partner
+    href: /lets-partner/
+    links:
+      - text: Return on Investment
+        href: /return-on-investment/
+      - text: Measures of Success
+        href: /measures-of-success/
+      - text: Determine Fit
+        href: /determine-fit/
+      - text: Interagency Agreeements
+        href: /interagency-agreement/
+      - text: Use cases
+        href: /use-cases/
+  - text: Pricing
+    href: /pricing/
+  - text: Get Started
+    href: /get-started/
+  - text: What our Partners are Saying
+    href: /partners-saying/
