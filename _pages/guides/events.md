@@ -11,6 +11,7 @@ sidenav:
     href: "#usage"
   - text: Supported Event Types
     href: "#supported-event-types"
+layout: page
 ---
 
 ## How it works

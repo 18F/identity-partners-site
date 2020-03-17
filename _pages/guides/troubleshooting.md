@@ -1,5 +1,6 @@
 ---
 title: Frequently asked questions
+layout: page
 ---
 
 <div class="usa-accordion usa-accordion--bordered" aria-multiselectable="true">
