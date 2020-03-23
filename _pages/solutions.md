@@ -3,6 +3,23 @@ title: About login.gov
 layout: page
 ---
 
+# Key features
+
+- Performance and reliability
+- FedRAMP authorized
+- Our team
+- Compliance with federal requirements
+
+
+# Authentication
+
+- NIST AAL2
+- MFA options
+
+# Identity proofing
+
+- NIST IAL2
+
 # The login.gov product
 
 - Multi-factor authentication
