@@ -8,3 +8,26 @@ a, .usa-alert__text a:visited, .usa-alert__text a {
 .usa-hero__heading {
   font-size: 2em;
 }
+
+.usa-hero {
+  @media (max-width: 1024px) {
+    background-position: 95% 50%;
+  }
+
+  @media (min-width: 640px) {
+    background-image: url(../img/dev-landing.png);
+  }
+
+  background-position: calc(50% + 300px) 50%;
+  background-size: 275px;
+  padding-bottom: 2.5rem;
+  padding-top: 2.5rem;
+
+  .usa-hero__callout {
+    margin-left: 0;
+    width: 62%;
+    @media (max-width: 640px) {
+      width: 100%;
+    }
+  }
+}
