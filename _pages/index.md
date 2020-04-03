@@ -12,7 +12,7 @@ permalink: /
         <h1 class="usa-hero__heading">
           <span class="usa-hero__heading--alt">Let's partner!</span>
         </h1>
-        <p>We’re on a mission to provide the public simple and secure online access to services and benefits across the federal government.</p>
+        <p class="usa-intro">We’re on a mission to provide the public simple and secure online access to services and benefits across the federal government.</p>
         <a class="usa-button" href="{{ site.baseurl }}/get-started">Get started »</a>
       </div>
     </div>
