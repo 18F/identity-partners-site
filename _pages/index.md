@@ -13,7 +13,7 @@ permalink: /
           <span class="usa-hero__heading--alt">Let's partner!</span>
         </h1>
         <p class="usa-intro">We’re on a mission to provide the public simple and secure online access to services and benefits across the federal government.</p>
-        <a class="usa-button" href="{{ site.baseurl }}/get-started">Get started »</a>
+        <button class="usa-button" href="{{ site.baseurl }}/get-started">Get started »</button>
       </div>
     </div>
   </section>
@@ -23,21 +23,21 @@ permalink: /
         <div class="tablet:grid-col">
           <div class="usa-prose">
             <img alt="" src="{{ '/assets/img/comply.svg' | relative_url }}" height="104">
-            <h1>Authentication</h1>
+            <h2>Authentication</h2>
             <p class="line-height-sans-5">Government programs need strong, and seamless authentication.</p>
           </div>
         </div>
         <div class="tablet:grid-col">
           <div class="usa-prose">
             <img alt="" src="{{ '/assets/img/launch.svg' | relative_url }}" height="104">
-            <h1>Identity proofing</h1>
+            <h2>Identity proofing</h2>
             <p class="line-height-sans-5">Identify users using NIST-compliant remote proofing, to deliver services and benefits to the public.</p>
           </div>
         </div>
         <div class="tablet:grid-col">
           <div class="usa-prose">
             <img alt="" src="{{ '/assets/img/develop.svg' | relative_url }}" height="104">
-            <h1>By gov, for gov</h1>
+            <h2>By gov, for gov</h2>
             <p class="line-height-sans-5">We're <i>in</i> government building identity solutions <i>for</i> government. Let us focus on authenticating your users, so you can focus on your mission.</p>
           </div>
         </div>
@@ -125,8 +125,12 @@ permalink: /
     </div>
   </section>
 
-  <section class="grid-container usa-section">
-    <h1>Join the X agencies and X applications already using login.gov today. Get started!</h1>
+  <section class="grid-container usa-section text-center">
+    <div class="usa-prose">
+      <h2 class="padding-y-3">Join the X agencies and X applications already using login.gov today.</h2>
+      <button class="usa-button usa-button--big" href="{{ site.baseurl }}/get-started">Get started »</button>
+    </div>
+
   </section>
 
 </main>
