@@ -18,6 +18,14 @@ permalink: /
     </div>
   </section>
 
+  <section class="bg-primary-lightest usa-section usa-section">
+    <div class="grid-container">
+      <div class="usa-prose text-center">
+        <h2 class="padding-y-3">[Add benefit statement here.] Example: A modern, single sign-on solution to give everyone a secure and private account to interact with the U.S. federal government online</h2>
+      </div>
+    </div>
+  </section>
+
   <section class="grid-container usa-section">
     <div class="grid-row grid-gap-4">
         <div class="tablet:grid-col">
@@ -125,12 +133,11 @@ permalink: /
     </div>
   </section>
 
-  <section class="grid-container usa-section text-center">
-    <div class="usa-prose">
+  <section class="grid-container usa-section">
+    <div class="usa-prose text-center">
       <h2 class="padding-y-3">Join the X agencies and X applications already using login.gov today.</h2>
       <button class="usa-button usa-button--big" href="{{ site.baseurl }}/get-started">Get started »</button>
     </div>
-
   </section>
 
 </main>
