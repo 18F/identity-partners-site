@@ -133,11 +133,12 @@ permalink: /
     </div>
   </section>
 
-  <section class="grid-container usa-section">
-    <div class="usa-prose text-center">
+  <section class="grid-container usa-section text-center">
+    <div class="usa-prose">
       <h2 class="padding-y-3">Join the X agencies and X applications already using login.gov today.</h2>
       <button class="usa-button usa-button--big" href="{{ site.baseurl }}/get-started">Get started »</button>
     </div>
+
   </section>
 
 </main>
