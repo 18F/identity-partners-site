@@ -17,42 +17,108 @@ permalink: /
       </div>
     </div>
   </section>
-
-  <section class="bg-primary-lightest usa-section usa-section">
+  
+  <section class="usa-section bg-primary-lightest">
     <div class="grid-container">
       <div class="usa-prose text-center">
-        <h2 class="padding-y-3">[Add benefit statement here.] Example: A modern, single sign-on solution to give everyone a secure and private account to interact with the U.S. federal government online</h2>
+        <h2 class="padding-y-1">[Add benefit statement here.] Example: A modern, single sign-on solution to give everyone a secure and private account to interact with the U.S. federal government online</h2>
       </div>
     </div>
   </section>
-
-  <section class="grid-container usa-section">
-    <div class="grid-row grid-gap-4">
+  
+  <section class="usa-section">
+    <div class="grid-container">
+      <div class="grid-row grid-gap-4">
         <div class="tablet:grid-col">
           <div class="usa-prose">
             <img alt="" src="{{ '/assets/img/comply.svg' | relative_url }}" height="104">
-            <h2>Authentication</h2>
+            <h3 class>Authentication</h3>
             <p class="line-height-sans-5">Government programs need strong, and seamless authentication.</p>
           </div>
-        </div>
+          </div>
         <div class="tablet:grid-col">
           <div class="usa-prose">
-            <img alt="" src="{{ '/assets/img/launch.svg' | relative_url }}" height="104">
-            <h2>Identity proofing</h2>
+            <img alt="" src="{{ '/assets/img/built.svg' | relative_url }}" height="104">
+            <h3 class="margin-top-neg-2">Identity proofing</h3>
             <p class="line-height-sans-5">Identify users using NIST-compliant remote proofing, to deliver services and benefits to the public.</p>
           </div>
         </div>
         <div class="tablet:grid-col">
           <div class="usa-prose">
             <img alt="" src="{{ '/assets/img/develop.svg' | relative_url }}" height="104">
-            <h2>By gov, for gov</h2>
+            <h3>By gov, for gov</h3>
             <p class="line-height-sans-5">We're <i>in</i> government building identity solutions <i>for</i> government. Let us focus on authenticating your users, so you can focus on your mission.</p>
           </div>
         </div>
+        <div class="tablet:grid-col">
+          <div class="usa-prose">
+            <img alt="" src="{{ '/assets/img/launch.svg' | relative_url }}" height="104">
+            <h3>Ready to go</h3>
+            <p class="line-height-sans-5">Login.gov has a FedRAMP Moderate authorization, which means it complies with federal security requirements. That means less work for you.</p>
+          </div>
+        </div>
       </div>
+    </div>
   </section>
 
-  <section class="usa-section bg-primary-lighter">
+  <section class="usa-section">  
+    <div class="grid-container">
+      <div class="usa-prose text-center">
+        <h2 class="margin-top-2 padding-y-6">Section title: Feature by User Type</h2>
+      </div>      	
+      <div class="grid-row">
+        <div class="grid-col-auto">
+          <p class="usa-intro">Subheading Lead</p>
+        </div>
+      </div>
+      <div class="grid-row grid-gap-4">
+        <div class="tablet:grid-col-6">
+          <p>Section I for user type: Add teaser, subheading a paragraph</p>
+        </div>
+        <div class="tablet:grid-col-6">
+          <p>Section II for user type: Add paragraph description with a bulleted list</p>
+          <ul>
+            <li>List item</li>
+            <li>List item</li>
+            <li>List item</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="usa-section">  
+    <div class="grid-container">
+      <div class="usa-prose">
+        <h2 class="padding-bottom-3">Heading: Deeper dive into solution type</h2>
+      </div>      	
+      <div class="grid-row grid-gap-4">
+        <div class="tablet:grid-col-4">
+          <h4>H4 heading</h4>
+          <p>Section I for user type: Add teaser, subheading a paragraph</p>
+        </div>
+        <div class="tablet:grid-col-4">
+          <h4>H4 heading</h4>
+          <p>Section I for user type: Add teaser, subheading a paragraph</p>
+        </div>
+        <div class="tablet:grid-col-4">
+          <h4>H4 heading</h4>
+          <p>Section I for user type: Add teaser, subheading a paragraph</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="usa-section">  
+    <div class="grid-container">
+      <div class="usa-prose text-center">
+        <h2 class="padding-y-3">Join the X agencies and X applications already using login.gov today.</h2>
+        <button class="usa-button usa-button--big" href="{{ site.baseurl }}/get-started">Get started »</button>
+      </div>
+    </div>
+  </section>
+
+   <section class="usa-section bg-primary-lighter">
     <div class="grid-container">
       <div class="grid-row grid-gap-4">
         <div class="tablet:grid-col-6">
@@ -132,13 +198,5 @@ permalink: /
       </div>
     </div>
   </section>
-
-  <section class="grid-container usa-section text-center">
-    <div class="usa-prose">
-      <h2 class="padding-y-3">Join the X agencies and X applications already using login.gov today.</h2>
-      <button class="usa-button usa-button--big" href="{{ site.baseurl }}/get-started">Get started »</button>
-    </div>
-
-  </section>
-
+  
 </main>
