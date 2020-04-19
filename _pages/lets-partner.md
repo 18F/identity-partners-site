@@ -5,54 +5,71 @@ layout: page
 
 # Ready to partner? Let's go!
 
-Here's the steps to use login.gov at your agency:
+We enable agencies managing federal benefits, services, and applications to make their offerings easier and more secure. 
 
-1. Let us know you're [ready to partner]({{ site.baseurl }})
-2. Sign an interagency agreement (IAA) with the U.S. General Services Administration
-  - We'll send you all the paperwork
-  - This can take about 50 days, so please plan accordingly!
-3. Get a working integration in our [sandbox]({{ site.baseurl }}/sandbox)
-4. Prepare your users for the new login.gov experience
-5. Launch and test your live login.gov integration 🚀
-6. Post-launch, keep up with changes and keep your users happy
+To get started, reach out to our team using this form. It asks for some basic information about your agency team, program, and applications you’d like to integrate with login.gov. We’ll work with you to understand and capture your needs and requirements at a high level. We will then jointly decide whether login.gov makes sense for your particular business and use cases. If we decide to move forward, the next step is to sign an interagency agreement, or join an existing one with your agency. We’ll then test your integrations and finally, plan for launch.
 
-# The launch checklist
+## Get to know the steps for using login.gov at your agency
 
-## Agreements and planning
 
-☑️ Interagency agreement (IAA) is fully executed (or you have approval to join an existing one at your agency)
-☑️ Plan for a launch date (when you'd like a login.gov integration to be available to your users)
-☑️ Sandbox integrations are working as expected
 
-☑️ Review your UX
-  - Conduct a walkthrough of log in, log out, and identity proofing user flows
-  - Determine if login.gov help text is needed at sign up, sign in, and forgot password
+ <section class="usa-graphic-list usa-section usa-section--dark">
+  <div class="grid-container">
+    <div class="usa-graphic-list__row grid-row grid-gap">
+      <div class="usa-media-block tablet:grid-col">
+        <img class="usa-media-block__img"  src="/assets/img/circle-124-1.png" alt="1">
+        <div class="usa-media-block__body">
+          <h2 class="usa-graphic-list__heading"><a href="https://share.hsforms.com/16DIoo--rTU2xbNW1MShkBg3ak9e" class="block-link text-no-underline hover:text-underline text-info">Let us know you're ready</a></h2>
+          <p>Let us know you're [ready to partner]({{ https://share.hsforms.com/16DIoo--rTU2xbNW1MShkBg3ak9e}})</p>
+        </div>
+      </div>
+      <div class="usa-media-block tablet:grid-col">
+        <img class="usa-media-block__img"  src="/assets/img/circle-124-2.png" alt="2">
+        <div class="usa-media-block__body">
+          <h2 class="usa-graphic-list__heading"><a href="{{ site.baseurl }}/interagency-agreement" class="block-link text-no-underline hover:text-underline text-info">Sign an interagency agreement</a>
+          </h2>
+          <p>Sign an (IAA) with the U.S. General Services Administration. We'll send you all the paperwork. This can take about 50 days, so please plan accordingly!
+          4Prepare your users for the new login.gov experience before launching</p>
+        </div>
+      </div>
+    </div>
+    <div class="usa-graphic-list__row grid-row grid-gap">
+      <div class="usa-media-block tablet:grid-col">
+        <img class="usa-media-block__img"  src="/assets/img/circle-124-3.png" alt="3">
+        <div class="usa-media-block__body">
+          <h2 class="usa-graphic-list__heading"><a href="{{ site.baseurl }}/sandbox" class="block-link text-no-underline hover:text-underline text-info">Test in the sandbox</a>
+          </h2>
+          <p>Get a working integration in our [sandbox]({{ site.baseurl }}/sandbox)
+          </p>
+        </div>
+      </div>
+      <div class="usa-media-block tablet:grid-col">
+        <img class="usa-media-block__img"  src="/assets/img/circle-124-4.png" alt="4">
+        <div class="usa-media-block__body">
+          <h2 class="usa-graphic-list__heading">
+          <a href="{{ site.baseurl }}/prepare-users" class="block-link text-no-underline hover:text-underline text-info">Prepare your users</a>
+          </h2>
+          <p>Prepare your users for the new login.gov experience before launching</p>
+        </div>
+      </div>
+    </div>
+    <div class="usa-graphic-list__row grid-row grid-gap">
+      <div class="usa-media-block tablet:grid-col">
+        <img class="usa-media-block__img"  src="/assets/img/circle-124-5.png" alt="5">
+        <div class="usa-media-block__body">
+          <h2 class="usa-graphic-list__heading"><a href="{{ site.baseurl }}/go-live-checklist" class="block-link text-no-underline hover:text-underline text-info">Go live</a></h2>
+          <p>Launch and test your live login.gov integration</p>
+        </div>
+      </div>
+      <div class="usa-media-block tablet:grid-col">
+        <img class="usa-media-block__img"  src="/assets/img/circle-124-6.png" alt="6">
+        <div class="usa-media-block__body">
+          <h2 class="usa-graphic-list__heading"><a href="{{ site.baseurl }}/post-launch" class="block-link text-no-underline hover:text-underline text-info">Post-launch</a></h2>
+          <p>Keep up with changes and keep your users happy</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-☑️ Create a user-support plan
-  - Inform your support resources of the integration with login.gov (if applicable)
-  - Inform the login.gov contact center of your application, screenshots, any specific help guidance, URLs and contact info for your support center resources
 
-☑️ Prepare user communications, send announcements
-
-## Pre-launch
-
-☑️ Your application is made available in the login.gov production environment _(Do not make your login.gov integration available to your users yet!)_
-
-☑️ Conduct testing to prepare for launch (at least a few days is recommended)
-  - Are login.gov production URLs referenced by the application?
-  - Does the integration work as expected?
-  - Perform any final checks with your team and the login.gov team
-
-☑️ Subscribe to login.gov status updates at [logingov.statuspage.io](https://logingov.statuspage.io)
-
-## Launch 🚀
-
-☑️ Make your login.gov integration available to your users
-  - Change URL endpoints to **`https://secure.login.gov`**
-
-## Post-launch
-
-☑️ Schedule check-ins with the login.gov team if needed
-☑️ Inform the login.gov team of any change in points-of-contact
-☑️ Update certificates before expiration
-☑️ Reach out to partners@login.gov for help or questions

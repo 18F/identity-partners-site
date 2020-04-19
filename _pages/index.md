@@ -103,7 +103,7 @@ permalink: /
         </div>
         <div class="tablet:grid-col-6">
         <h4>A modern, single sign-on solution for everyone</h4>
-        <p>Our goal is to give everyone a secure and private account to interact with the U.S. federal government online; Reduce friction and increase trust in our government</p>
+        <p>Our goal is to give everyone a secure and private account to interact with the U.S. federal government online; reduce friction and increase trust in our government</p>
         </div>
       </div>
     </div>
