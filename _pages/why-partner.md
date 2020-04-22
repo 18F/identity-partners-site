@@ -15,7 +15,7 @@ login.gov is used by over 60 applications at 17 agencies including Cabinet level
   <div class="tablet:grid-col margin-top-2 tablet:margin-top-0 display-flex flex-align-stretch border border-solid border-width-1px radius-md border-gray-10 shadow-1 padding-5 margin-x-05">
     <div class="site-docs-card-link">
       <h3 class="font-lang-lg margin-0">
-        <a href="{{ site.baseurl }}/lets-partner" class="block-link text-no-underline text-primary hover:text-underline">Easy partnership steps</a>
+        <a href="{{ site.baseurl }}/lets-partner" class="block-link text-no-underline text-primary hover:text-underline">Easy to partner</a>
       </h3>
       <p class="margin-top-1">Let's partner! Together we evaluate fit, examine your use cases and guide you through integration.</p>
     </div>

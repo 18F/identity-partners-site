@@ -2,7 +2,7 @@
 title: Frequently asked questions
 layout: page
 ---
-
+# Frequently asked questions
 <div class="usa-accordion usa-accordion--bordered" aria-multiselectable="true">
 
 <h1 class="usa-accordion__heading">

@@ -48,55 +48,6 @@ login.gov is a service that offers secure and private online access to governmen
 ### Why is `YOUR APPLICATION` using login.gov?
 login.gov uses two-factor authentication, and stronger passwords, that meet new National Institute of Standards of Technology requirements for secure validation and verification. By using login.gov, you’ll get an extra layer of security to help protect your account against password compromises.
 
-## Agency logo guidelines
-We will publish your agency logo on login.gov to help users understand that partnership between the services. Please follow these guidelines when submitting a logo:
-
-<img src="{{ site.baseurl }}/assets/img/logo-guidelines.png" alt="Agency logo guidelines to be displayed on login.gov- 171px x 40px" class="display-block grid-col flex-auto flex-align-center">
-
-
-### Contrast and background
-**Logos should be high contrast on a transparent background**
-
-<img src="{{ site.baseurl }}/assets/img/agency-logo-contrast.png" alt="Agency logo guidelines should have high contrast" class="display-block grid-col flex-auto flex-align-center">
-
-
-### File formats accepted
-You will be able to use a `.png` or `.svg` logo.
-#### png
-Provide both a 1x and 2x resolution png
-<table class="usa-table">
-  <caption>File formats</caption>
-  <thead>
-    <tr>
-      <th scope="col">Resolution</th>
-      <th scope="col">Max width</th>
-      <th scope="col">Max height</th>
-      <th scope="col">Dots per square inch (dpi)</th>
-      <th scope="col">File name</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row"><strong>1x</strong></th>
-      <td>171px</td>
-      <td>40px</td>
-      <td>@72dpi</td>
-      <td>my-agency-logo-@1x.png</td>
-    </tr>
-    <tr>
-      <th scope="row"><strong>2x</strong></th>
-      <td>342px</td>
-      <td>80px</td>
-      <td>@72dpi</td>
-      <td>my-agency-logo-@2x.png</td>
-    </tr>
-  </tbody>
-</table>
-
-### svg
-**Export .svg files**
-set **Styling** using **Presentations Attributes**
-
 ## Login logo
 <img src="{{ site.baseurl }}/assets/img/login-gov-logo.svg" class="usa-logo-img" alt="login.gov logo">
 We have a number of additional guidelines pertaining to the use of the login.gov brand and logo. Please use our guidelines so that we can provide a consistent visual experience across all government platforms.
