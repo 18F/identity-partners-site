@@ -15,9 +15,9 @@ login.gov empowers people to feel safe signing into government websites and acce
   <div class="tablet:grid-col margin-top-2 tablet:margin-top-0 display-flex flex-align-stretch border border-solid border-width-1px radius-md border-gray-10 shadow-1 padding-5 margin-x-05">
     <div class="site-docs-card-link">
       <h3 class="font-lang-lg margin-0">
-        <a href="{{ site.baseurl }}/security" class="block-link text-no-underline text-primary hover:text-underline">Security</a>
+        <a href="{{ site.baseurl }}/security" class="block-link text-no-underline text-primary hover:text-underline">Information Security</a>
       </h3>
-      <p class="margin-top-1">We consider the best options for both users and agencies security</p>
+      <p class="margin-top-1">We consider the best options for both user and agency security</p>
     </div>
   </div>
     <div class="tablet:grid-col margin-top-2 tablet:margin-top-0 display-flex flex-align-stretch border border-solid border-width-1px radius-md border-gray-10 shadow-1 padding-5 margin-x-05">
@@ -48,7 +48,7 @@ login.gov empowers people to feel safe signing into government websites and acce
   </div>
 </div>
 <div class="grid-row grid-gap flex-align-stretch margin-top-4">
-<div class="tablet:grid-col margin-top-2 tablet:margin-top-0 display-flex flex-align-stretch border border-solid border-width-1px radius-md border-gray-10 shadow-1 padding-5 margin-x-05">
+  <div class="tablet:grid-col margin-top-2 tablet:margin-top-0 display-flex flex-align-stretch border border-solid border-width-1px radius-md border-gray-10 shadow-1 padding-5 margin-x-05">
     <div class="site-docs-card-link">
       <h3 class="font-lang-lg margin-0">
         <a href="{{ site.baseurl }}/customer-service" class="block-link text-no-underline text-primary hover:text-underline">Dedicated customer service</a>
@@ -59,10 +59,19 @@ login.gov empowers people to feel safe signing into government websites and acce
   <div class="tablet:grid-col margin-top-2 tablet:margin-top-0 display-flex flex-align-stretch border border-solid border-width-1px radius-md border-gray-10 shadow-1 padding-5 margin-x-05">
     <div class="site-docs-card-link">
       <h3 class="font-lang-lg margin-0">
+        <a href="{{ site.baseurl }}/community-of-practice" class="block-link text-no-underline text-primary hover:text-underline">Community of Practice</a>
+      </h3>
+      <p class="margin-top-1">Join other agencies and to learn how to implement and benefit from login.gov</p>
+    </div>
+  </div>
+</div>
+<div class="grid-row grid-gap flex-align-stretch margin-top-4">
+<div class="tablet:grid-col margin-top-2 tablet:margin-top-0 display-flex flex-align-stretch border border-solid border-width-1px radius-md border-gray-10 shadow-1 padding-5 margin-x-05">
+    <div class="site-docs-card-link">
+      <h3 class="font-lang-lg margin-0">
         <a href="{{ site.baseurl }}/accessibility" class="block-link text-no-underline text-primary hover:text-underline">Accessibility statement</a>
       </h3>
       <p class="margin-top-1">We comply with Section 508</p>
     </div>
   </div>
-
 </div>
