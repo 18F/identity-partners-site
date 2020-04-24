@@ -9,6 +9,7 @@ layout: page
 
 # Customize your login.gov sign-in page
 
+To add a logo to your test app, update your app in the Partner Sandbox.  Each app has a Sign-in page customization panel.   Click on the "Choose file" button to upload your agency logo. Make sure it meets the guidelines below.
 
 ## Agency logo guidelines
 We will publish your agency logo on login.gov to help users understand that partnership between the services. Please follow these guidelines when submitting a logo:

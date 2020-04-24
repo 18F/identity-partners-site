@@ -33,7 +33,7 @@ login.gov identity verification builds on the security of our authentication ser
   <div class="tablet:grid-col margin-top-2 tablet:margin-top-0 display-flex flex-align-stretch border border-solid border-width-1px radius-md border-gray-10 shadow-1 padding-5 margin-x-05">
     <div class="site-docs-card-link">
       <h3 class="font-lang-lg margin-0">
-        <a href="{{ site.baseurl }}/login-gov-benefits" class="block-link text-no-underline text-primary hover:text-underline">Features</a>
+        <a href="{{ site.baseurl }}/features" class="block-link text-no-underline text-primary hover:text-underline">Features</a>
       </h3>
       <p class="margin-top-1">We are federal government run, so we understand our federal partners and offer features that make login.gov a perfect shared service that's FedRAMP Moderate while complying with 21st Century Idea Act in a easy-to-use, accessible experience.</p>
     </div>
