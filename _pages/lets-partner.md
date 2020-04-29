@@ -1,6 +1,7 @@
 ---
 title: Let's partner
 layout: page
+sidenav: why-partner
 ---
 
 # Ready to partner? Let's go!
