@@ -1,9 +1,15 @@
-# This is the configuration for the sidenav navigation, adopting the syntax used
-# in uswds-jekyll.
-#
-# Named lists are referenced in the Jekyll front matter of a page using the
-# `sidenav` variable.
-# An external `href` should be indicated with `external: true`.
+# This is the configuration for the primary and sidenav navigation. Syntax is
+# described in README.md.
+
+primary:
+  - text: Product
+    href: /product/
+  - text: Guides
+    href: /guides/
+  - text: Sandbox
+    href: /sandbox/
+  - text: Contact
+    href: /contact/
 
 why-partner:
   - text: Let's Partner

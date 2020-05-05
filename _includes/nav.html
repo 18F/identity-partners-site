@@ -11,28 +11,31 @@
     </div>
     <nav role="navigation" class="usa-nav">
       <button class="usa-nav__close"><img src="{{ site.baseurl }}/assets/img/close.svg" alt="Close"></button>
+      {% assign primary_links = site.data.navigation.primary %}
+      {% if primary_links %}
       <ul class="usa-nav__primary usa-accordion">
-        <li class="usa-nav__primary-item">
-          <a class="usa-nav__link {% if page.url == '/product/' %}usa-current{% endif %}" href="{{ site.baseurl }}/product">
-            <span>Product</span>
-          </a>
-        </li>
-        <li class="usa-nav__primary-item">
-          <a class="usa-nav__link {% if page.url == '/guides/' %}usa-current{% endif %}" href="{{ site.baseurl }}/guides">
-            <span>Guides</span>
-          </a>
-        </li>
-        <li class="usa-nav__primary-item">
-          <a class="usa-nav__link {% if page.url == '/sandbox/' %}usa-current{% endif %}" href="{{ site.baseurl }}/sandbox">
-            <span>Sandbox</span>
-          </a>
-        </li>
-        <li class="usa-nav__primary-item">
-          <a class="usa-nav__link {% if page.url == '/contact/' %}usa-current{% endif %}" href="{{ site.baseurl }}/contact">
-            <span>Contact</span>
-          </a>
-        </li>
+        {% for _link in primary_links %}
+          {% assign _current = false %} 
+          {% if _link.href == page.url or _link.href == page.permalink %}
+            {% assign _current = true %}
+          {% endif %}
+
+          <!-- Primary nav item is also current if sidenav identifer matches nav URL -->
+          {% if page.sidenav %}
+            {% assign _href = _link.href | remove: "/" %}
+            {% if _href == page.sidenav %}
+              {% assign _current = true %}
+            {% endif %}      
+          {% endif %}
+          <li class="usa-nav__primary-item">
+            <a href="{% if _link.external == true %}{{ _link.href }}{% else %}{{ _link.href | relative_url}}{% endif %}"
+              {% if _current %} class="usa-current" {% endif %} >
+              <span>{{ _link.text }}</span>
+            </a>
+          </li>
+        {% endfor %}
       </ul>
+      {% endif %}
     </nav>
   </div>
 </header>
