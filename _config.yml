@@ -5,6 +5,8 @@ collections:
     output: true
     permalink: /:path/
 
+# protocol/hostname required for sitemap generation
+url: "https://partners.login.gov"
 plugins:
   - jekyll-sitemap
 
