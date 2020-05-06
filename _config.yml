@@ -5,6 +5,9 @@ collections:
     output: true
     permalink: /:path/
 
+plugins:
+  - jekyll-sitemap
+
 kramdown:
   hard_wrap: true
 
