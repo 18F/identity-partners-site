@@ -4,6 +4,8 @@
 primary:
   - text: Product
     href: /product/
+  - text: Why Partner
+    href: /why-partner/
   - text: Guides
     href: /guides/
   - text: Sandbox
@@ -29,5 +31,10 @@ why-partner:
     href: /pricing/
   - text: Get Started
     href: /get-started/
+    links:
+      - text: For Legal
+        href: /legal/
+      - text: For Development Teams
+        href: /developers/
   - text: What our Partners are Saying
     href: /partners-saying/
