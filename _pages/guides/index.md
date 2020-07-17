@@ -12,6 +12,9 @@ background: bg-primary-lightest
     <a href="{{ site.baseurl }}/guides/saml">SAML integration guide</a>
   </div>
   <div class="guide-item">
+    <a href="{{ site.baseurl }}/guides/test-ial2">Testing IAL2</a>
+  </div>
+  <div class="guide-item">
     <a href="{{ site.baseurl }}/guides/attributes">User attributes</a>
   </div>
   <div class="guide-item">
