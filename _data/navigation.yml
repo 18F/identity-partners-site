@@ -1,0 +1,10 @@
+# This is the configuration for the primary and sidenav navigation. Syntax is
+# described in README.md.
+
+primary:
+  - text: Product
+    href: /product/
+  - text: Developers
+    href: https://developers.login.gov
+  - text: Contact us
+    href: /contact/

@@ -1,0 +1,34 @@
+@import '../node_modules/identity-style-guide/dist/assets/scss/styles';
+
+.usa-sidenav {
+  border-radius: unset;
+  background-color: color('base-lightest');
+  text-transform: uppercase;
+}
+
+.usa-sidenav__item {
+  border-top: none;
+}
+
+.usa-sidenav .usa-current:after {
+  background-color: inherit;
+  border-radius: unset;
+}
+
+.usa-sidenav .usa-current {
+  color: color('primary');
+  background-color: inherit;
+  font-weight: inherit;
+}
+
+.usa-sidenav a:hover {
+  color: color('primary');
+}
+
+.usa-sidenav__item {
+  font-weight: font-weight('bold');
+}
+
+.usa-sidenav__sublist {
+  font-weight: normal;
+}

@@ -1,0 +1,23 @@
+title: Login.gov Partners
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# protocol/hostname required for sitemap generation
+url: "https://partners.login.gov"
+plugins:
+  - jekyll-sitemap
+
+kramdown:
+  hard_wrap: true
+
+defaults:
+  - scope:
+      path: ''
+    values:
+      layout: page
+
+copy_to_destination:
+  - node_modules/identity-style-guide/dist/assets

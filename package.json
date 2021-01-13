@@ -1,0 +1,16 @@
+{
+  "name": "identity-partners-site",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/18F/identity-partners-site.git"
+  },
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/18F/identity-partners-site/issues"
+  },
+  "homepage": "https://github.com/18F/identity-partners-site#readme",
+  "dependencies": {
+    "identity-style-guide": "^3.0.0"
+  }
+}
