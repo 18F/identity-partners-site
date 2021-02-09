@@ -14,6 +14,7 @@ description: Learn all about the login.gov product and platform
 [Metrics and analytics](#metrics-and-analytics)
 [Fraud detection](#fraud-detection)
 [Customer service](#customer-service)
+[State and local](#state-and-local)
 [Accessibility](#accessibility)
 
 # Overview
@@ -75,10 +76,6 @@ login.gov is an offering of the General Services Administration, an agency of th
 ## Our agency partners and users
 
 login.gov is used by over 60 applications at 17 agencies including Cabinet level agencies such as the Department of Defense, Department of Homeland Security, Department of Energy, and the Department of Transportation. Over 17 million people have signed up to use login.gov, across all applications.
-
-## Support for state and local governments and tribes
-
-login.gov hopes to support state and local governments with their authentication and identity needs. At this time, we are working internally to align policies to permit these engagements.
 
 ## Using login.gov with mobile apps
 
@@ -311,6 +308,14 @@ Any needed services outside these hours are on a case by case basis depending on
 |  | • Make changes to a user's login.gov account |
 |  | • Change a user's email or phone number |
 |  | • Shorten or waive the 24 hour "cooling off" period for account deletion |
+
+# State and local
+
+Crises, like the COVID-19 global pandemic and ongoing natural disasters, make it more urgent than ever for the public to gain fast and easy access to their benefits and services. GSA’s Technology Transformation Services (TTS) realizes the burden this has put on state and local governments. Our team, with deep expertise in security, product, engineering, and user experience, works with state and local government partners looking to take advantage of all that login.gov has to offer.
+
+GSA is eager to provide support to the American public in a time of crisis, while continuing to prioritize federal agency identity needs. State and local support is authorized under [OMB Circular A-97](https://www.whitehouse.gov/omb/information-for-agencies/circulars/). TTS will limit engagements with state and local entities to work that is linked to federal programs in which TTS is uniquely positioned to provide assistance. TTS will partner with applicable federal agencies to ensure proper coordination.
+
+Ready to get started? Email us at <a href="mailto:partners@login.gov">partners@login.gov</a>.
 
 
 # Accessibility
