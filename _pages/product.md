@@ -1,6 +1,6 @@
 ---
-title: Product
-description: Learn all about the login.gov product and platform
+title: Login.gov Partners | Product
+description: Learn all about the login.gov product and services offerings that we provide
 ---
 
 ## Contents
@@ -311,11 +311,17 @@ Any needed services outside these hours are on a case by case basis depending on
 
 # State and local
 
-Crises, like the COVID-19 global pandemic and ongoing natural disasters, make it more urgent than ever for the public to gain fast and easy access to their benefits and services. GSA’s Technology Transformation Services (TTS) realizes the burden this has put on state and local governments. Our team, with deep expertise in security, product, engineering, and user experience, works with state and local government partners looking to take advantage of all that login.gov has to offer.
+Crises, like the COVID-19 global pandemic and ongoing natural disasters, make it more urgent than ever for the public to gain fast and easy access to their benefits and services. GSA’s Technology Transformation Services (TTS) realizes the burden this has put on state and local governments. Our team, with deep expertise in security, product, engineering, and user experience, is looking for state and local government partners looking to take advantage of all that login.gov has to offer for their federally funded programs.
+
+We’re dedicated to making it easy for you and your team to integrate your systems with login.gov.
+
+- **By government, for government.** We understand the unique challenges of government service providers.
+- **Developer sandbox.** Our sandbox makes it easy for your team to try out login.gov integrations for free and our documentation will guide you at every step.
+- **Join the community.** Meet and interact with other states, federal agencies, and the login.gov team to learn about our service and get support.
+
+Ready to get started? Get in touch with us by <a href="https://share.hsforms.com/1_5DQDpcrSUqlEX6yMOe_tA3ak9e">filling out this form</a>.
 
 GSA is eager to provide support to the American public in a time of crisis, while continuing to prioritize federal agency identity needs. State and local support is authorized under [OMB Circular A-97](https://www.whitehouse.gov/omb/information-for-agencies/circulars/). TTS will limit engagements with state and local entities to work that is linked to federal programs in which TTS is uniquely positioned to provide assistance. TTS will partner with applicable federal agencies to ensure proper coordination.
-
-Ready to get started? Email us at <a href="mailto:partners@login.gov">partners@login.gov</a>.
 
 
 # Accessibility
