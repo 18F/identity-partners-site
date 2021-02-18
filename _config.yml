@@ -9,6 +9,7 @@ collections:
 url: "https://partners.login.gov"
 plugins:
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 kramdown:
   hard_wrap: true

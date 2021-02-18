@@ -1,6 +1,10 @@
 ---
 ---
+// TODO: UPDATE TO LEVERAGE THE LGWDS
 
+@charset "UTF-8";
+
+@import "footer";
 @import "sidenav";
 
 @font-face {
@@ -20,6 +24,8 @@
        url("../fonts/publicsans-bold.woff") format("woff"),
        url("../fonts/publicsans-bold.ttf") format("truetype");
 }
+
+
 
 $sans-serif-font-family: "Public Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !default;
 
