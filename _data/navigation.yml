@@ -5,7 +5,7 @@ primary:
   - text: Product
     href: /product/
   - text: State and local
-    href: https://partners.login.gov/product/#state-and-local
+    href: /product/#state-and-local
   - text: Developers
     href: https://developers.login.gov
   - text: Contact us
