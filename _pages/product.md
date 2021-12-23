@@ -183,7 +183,7 @@ We develop the platform using open-source agile practices in a cloud-based envir
 
 ## Availability and uptime
 
-As an authentication system and gateway to your applications, we strive for high availability and uptime. See our [status page](https://logingov.statuspage.io) for live statistics, incident reports, and subscribe to updates.
+As an authentication system and gateway to your applications, we strive for high availability and uptime. See our [status page](https://status.login.gov) for live statistics, incident reports, and subscribe to updates.
 
 login.gov is built in a scalable way and will be load tested continually to ensure that it can handle daily usage and peaks as the service grows. We expect to load test to a minimum of 200% load while also doing stress testing to find and resolve bottlenecks well before the service's production load hits that level.
 
