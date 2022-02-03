@@ -29,9 +29,9 @@ login.gov offers the public a single, secure, and private access to online feder
 
 ## login.gov's offerings
 
-login.gov offers secure two-factor authentication with widely available as well as unphishable methods. This service provides users with secure access to digital services at over 17 different government agencies with a single set of credentials. For you, this means leveraging the best security defined by NIST 800-63 Identity Assurance Level 1 and Authentication Assurance Level 2, and FedRAMP Moderate while complying with 21st Century Idea Act in a easy-to-use experience.
+login.gov offers secure two-factor authentication with widely available as well as unphishable methods. This service provides users with secure access to digital services at over 17 different government agencies with a single set of credentials. For you, this means leveraging the best security defined by NIST 800-63 Identity Assurance Level 1 (IAL1) and Authentication Assurance Level 2 (AAL2), and FedRAMP Moderate while complying with 21st Century Idea Act in an easy-to-use experience.
 
-login.gov identity verification builds on the security of our authentication service and provides a remote proofing experience using an individual's state-issued ID rather than knowledge-based verification. Our remote proofing implementation complies with NIST's IAL2. The login.gov verified accounts (IAL2/AAL2) allows applications to access verified attributes about a user such as a phone number and a social security number while maintaining user privacy by requiring the user's consent and password to decrypt the data.
+login.gov identity verification builds on the security of our authentication service and provides a remote proofing experience using an individual's state-issued ID rather than knowledge-based verification. Our remote proofing implementation substantially conforms with NIST's IAL2. The login.gov verified accounts (IAL2*/AAL2) allows applications to access verified attributes about a user such as a phone number and a social security number while maintaining user privacy by requiring the user's consent and password to decrypt the data.
 
 ## login.gov's opportunity
 
@@ -49,7 +49,8 @@ We are also keeping ahead of evolving security threats by leading industry in ad
 
 ## Identity proofing
 
-We provide an online remote identity proofing platform that allows agencies to verify that their users are who they say they are from the convenience of their own home. We have worked with some of the most recognizable brands in the Identity, Credential, and Access Management (ICAM) space to bring one solution to the federal government. login.gov meets NIST's Identity Assurance Level 2 making it a great fit for applications that need to feel confident about their users.
+We provide an online remote identity proofing platform that allows agencies to verify that their users are who they say they are from the convenience of their own home. We have worked with some of the most recognizable brands in the Identity, Credential, and Access Management (ICAM) space to bring one solution to the federal government. lLogin.gov substantially conforms to NIST’s Identity Assurance Level 2 (IAL2*) making it a great fit for applications that need to feel confident about their users.
+
 
 ## Primary benefits of using login.gov
 
@@ -87,7 +88,7 @@ login.gov is a native web application that is mobile friendly and responsive tha
 
 ## Account creation
 
-Anyone with a valid email address and second factor can create a login.gov basic authentication account (IAL1/AAL2). Only U.S. citizens with a valid driver's license can currently create a verified account (IAL2/AAL2). [See our help content]({{ site.baseurl }}/help/creating-an-account) for more about the account creation process.
+Anyone with a valid email address and second factor can create a login.gov basic authentication account (IAL1/AAL2). Only U.S. citizens with a valid driver's license can currently create a verified account (IAL2*/AAL2). [See our help content]({{ site.baseurl }}/help/creating-an-account) for more about the account creation process.
 
 ## Supported multi-factor authentication (MFA) methods
 
@@ -109,7 +110,7 @@ login.gov requires passwords with a minimum of 12 characters and actively screen
 
 ## Accounts for foreign citizens or non-SSN holders
 
-Anyone can create a login.gov basic authentication account (IAL1/AAL2) with an email address and second factor such as a phone number. Identity verification accounts (IAL2/AAL2) currently require a Social Security Number (SSN) to meet the NIST requirements of a government identification number.
+Anyone can create a login.gov basic authentication account (IAL1/AAL2) with an email address and second factor such as a phone number. Identity verification accounts (IAL2*/AAL2) currently require a Social Security Number (SSN) to meet the NIST requirements of a government identification number.
 
 ## Authorization
 
@@ -125,7 +126,7 @@ login.gov determines uniqueness by email address as they can't be used for multi
 
 ## Account creation for minors
 
-Registration of minors is a business decision to be made by your agency. Anyone with an email address and a phone number can create a login.gov basic authentication account (IAL1/AAL2). For our identity verification accounts (IAL2/AAL2), we require a valid form of state-issued ID and a financial/utility account and address of record (phone number connected with the user's name via a telco check). Most minors do not have these forms of identification, which would preclude them from obtaining verified IAL2 account.
+Registration of minors is a business decision to be made by your agency. Anyone with an email address and a phone number can create a login.gov basic authentication account (IAL1/AAL2). For our identity verification accounts (IAL2*/AAL2), we require a valid form of state-issued ID and a financial/utility account and address of record (phone number connected with the user's name via a telco check). Most minors do not have these forms of identification, which would preclude them from obtaining verified IAL2* account.
 
 ## User attribute bundle sent to agencies
 
@@ -147,13 +148,13 @@ NIST defines identity proofing as "The process by which a [credentialing service
 
 We offer two levels of identity assurance within our platform. For our login.gov basic authentication accounts (IAL1/AAL2), we rely on the user having access to an email address and a secure multi-factor method such as a phone or PIV/CAC.
 
-For identity verified accounts at the NIST 800-63 IAL2 level, we ask users to upload a photograph of their state-issued ID and we verify that information against Department of Motor Vehicles (DMV) records. As a fallback we can also leverage address verification by mail. Users must also provide their phone numbers and SSN, which are validated against their known phone bill for accuracy.
+For identity verified accounts at the NIST 800-63 IAL2* level, we ask users to upload a photograph of their state-issued ID and we verify that information against Department of Motor Vehicles (DMV) records. As a fallback we can also leverage address verification by mail. Users must also provide their phone numbers and SSN, which are validated against their known phone bill for accuracy.
 
 To improve proofing coverage, we plan on expanding our use of data sources to include government data sources not available through traditional commercial data sources as we are a trusted federal entity. Likewise, we plan on providing in-person proofing as a fall back option.
 
 ## Death check
 
-At elevation to IAL2, a death check is performed against the asserted SSN.
+At elevation to IAL2*, a death check is performed against the asserted SSN.
 
 ## We do not offer knowledge-based verification
 
@@ -246,7 +247,7 @@ We also provide a Slack channel for agency partners to communicate with our team
 
 ## Pricing
 
-login.gov prices its service using a tiered-pricing model based on user volume that saves you money. There is a fixed price for each tier, with lower per user rates at higher volume tiers, resulting in bulk savings. Our tier pricing is dependent on whether your users are using identity proofing (IAL2/AAL2) or just authentication (IAL1/AAL2) services. User volume is calculated at the application level.
+login.gov prices its service using a tiered-pricing model based on user volume that saves you money. There is a fixed price for each tier, with lower per user rates at higher volume tiers, resulting in bulk savings. Our tier pricing is dependent on whether your users are using identity proofing (IAL2*/AAL2) or just authentication (IAL1/AAL2) services.
 
 ## Billing
 
@@ -335,3 +336,7 @@ Our approach is to continuously iterate on login.gov based on what we learn from
 ## Accessibility standards/compliance for Section 508
 
 We follow all accessibility standards and we comply with 508. You can find 18F's [accessibility checklist](https://pages.18f.gov/accessibility/checklist), and learn more about the [tools we use](https://pages.18f.gov/accessibility/tools) to ensure all our products and services are 508 compliant.
+
+# Footnotes:
+
+* Login.gov's IAL2 implementation substantially conforms to NIST SP 800-63A while a fully conformant and certified flow is still under development.
