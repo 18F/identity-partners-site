@@ -125,7 +125,7 @@ Login.gov determines uniqueness by email address as they can't be used for multi
 
 ## Account creation for minors
 
-Registration of minors is a business decision to be made by your agency. Anyone with an email address and a phone number can create a Login.gov basic authentication account (IAL1/AAL2). For our identity verification accounts (IAL2/AAL2), we require a valid form of state-issued ID and a financial/utility account and address of record (phone number connected with the user's name via a telco check). Most minors do not have these forms of identification, which would preclude them from obtaining verified IAL2 account.
+Registration of minors is a business decision to be made by your agency. Anyone with an email address and a phone number can create a Login.gov basic authentication account. For our identity verification accounts, we require a valid form of state-issued ID and a financial/utility account and address of record (phone number connected with the user's name via a telco check). Most minors do not have these forms of identification, which would preclude them from obtaining verified account.
 
 ## User attribute bundle sent to agencies
 
