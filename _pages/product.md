@@ -330,7 +330,7 @@ GSA is eager to provide support to the American public in a time of crisis, whil
 
 ## Usability
 
-Our approach is to continuously iterate on Login.gov based on what we learn from ongoing research and usability studies. We have recently started [publishing our research](https://design.login.gov/research/00-overview/).
+Our approach is to continuously iterate on Login.gov based on what we learn from ongoing research and usability studies.
 
 ## Accessibility standards/compliance for Section 508
 
