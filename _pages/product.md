@@ -189,7 +189,7 @@ Login.gov is built in a scalable way and will be load tested continually to ensu
 
 ## Cloud-based hosting
 
-Login.gov is hosted in Amazon Web Services East/West (AWS E/W) and is highly available. We plan to migrate to GovCloud when it supports AWS Key Management Service, which is used to monitor our per user encryption and is not currently available in GovCloud. Per our FedRAMP Moderate ATO, our risk assessment takes into account our use of AWS E/W.
+Login.gov is hosted in Amazon Web Services East/West (AWS E/W) and is highly available. Per our FedRAMP Moderate ATO, our risk assessment takes into account our use of AWS E/W.
 
 # Privacy
 
