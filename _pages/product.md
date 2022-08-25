@@ -153,7 +153,7 @@ To improve proofing coverage, we plan on expanding our use of data sources to in
 
 ## Death check
 
-For identity proofed arounds, a death check is performed against the asserted SSN.
+For identity proofed accounts, a death check is performed against the asserted SSN.
 
 ## We do not offer knowledge-based verification
 
