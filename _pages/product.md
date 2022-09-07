@@ -1,6 +1,7 @@
 ---
 title: Login.gov Partners | Product
 description: Learn all about the login.gov product and services offerings that we provide
+redirect_to: https://login.gov/partners/our-services
 ---
 
 ## Contents
