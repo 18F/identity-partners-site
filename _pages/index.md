@@ -2,6 +2,7 @@
 title: Login.gov Partners
 layout: main
 permalink: /
+redirect_to: https://login.gov/partners
 ---
 
 <section class="usa-hero">
